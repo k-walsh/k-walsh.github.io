@@ -1,0 +1,62 @@
+.dash-figma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  margin: 0 5%;
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+.sketches-dash {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 80%;
+  padding-left: 10%;
+}
+
+#vid2 {
+  padding-left: 15px;
+}
+
+@media (max-width: 1200px) {
+  #vid2 {
+    padding-left: 0;
+  }
+}
+
+#dash {
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+#dash-frame {
+  width: 100vw;
+  height: 2000px;
+  border: 0px;
+  padding: 8px;
+}
+
+#dash-frame {
+  zoom: 0.55;
+  -moz-transform: scale(0.55);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.55);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.55);
+  -webkit-transform-origin: 0 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #scaled-frame {
+    zoom: 1;
+  }
+}

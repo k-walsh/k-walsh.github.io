@@ -1,0 +1,51 @@
+.about {
+  margin: 10%;
+  padding: 0;
+  text-align: left;
+  font-size: calc(12px + 0.7vw);
+  margin-top: 15%;
+}
+
+.about img {
+  padding-right: 2%;
+  margin: auto;
+  max-width: max(30%, 300px);
+  border-radius: 25px;
+}
+
+.top {
+  display: flex;
+}
+
+.about .greeting {
+  padding-left: 2%;
+}
+
+.blurb p {
+  color: rgb(79, 79, 79);
+  font-size: calc(14px + 0.6vw);
+  margin: 3% 5% 3% 15%;
+  font-weight: lighter;
+}
+
+#subh1 {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.socials {
+  margin-top: 40px;
+  /* color: rgb(225, 193, 198); */
+  color: #f4c2c4;
+  font-size: large;
+}
+
+.socials .icon {
+  padding-right: 20px;
+}
+
+.socials .icon:hover {
+  cursor: pointer;
+  /* filter: drop-shadow(0 0 10px rgb(157, 157, 157)); */
+  color: #cf9091;
+}

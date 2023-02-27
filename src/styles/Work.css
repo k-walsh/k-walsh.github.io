@@ -1,0 +1,33 @@
+/* * trying to make description only appear on hover but not working *
+.projectcard + .projectinfo {
+  display: none;
+}
+
+.projectcard:hover > .projectinfo {
+  display: block;
+  font-size: 25px;
+  visibility: visible;
+} */
+
+/** ^ https://www.geeksforgeeks.org/display-div-element-on-hovering-over-a-tag-using-css/#:~:text=To%20display%20div%20element%20using,to%20display%20the%20div%20element. **/
+
+.allwork {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mywork {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(12px + 2vw);
+  /* font-family: "Mulish"; */
+}
+
+.mywork h2 {
+  text-align: center;
+  /* font-size: (30px + 1vw); */
+  /* font-size: calc(12px + 3vw); */
+}
+
+

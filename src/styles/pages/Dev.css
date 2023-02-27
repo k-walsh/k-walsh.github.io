@@ -1,0 +1,24 @@
+img {
+  width: 50%;
+}
+
+.devbody {
+  margin: 20%;
+  font-size: calc(12px + 0.9vw);
+  /* color: rgb(125, 125, 104); */
+  color: rgb(127, 126, 126);
+  text-align: center;
+}
+
+.blueno-figma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  margin: 0 5%;
+  /* margin: 0 5%; */
+}
+
+#blueno-final {
+  padding-top: 2%;
+}

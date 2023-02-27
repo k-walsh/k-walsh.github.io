@@ -1,0 +1,33 @@
+/** page settings **/
+.page {
+  font-size: calc(14px + 0.3vw);
+}
+
+.top-layer {
+  background-color: rgba(236, 209, 210, 255);
+  padding: 8% 18% 5% 18%;
+  /* margin-top: 20%; */
+  z-index: 999;
+  text-align: center;
+}
+
+.top-layer h2 {
+  margin: 1%;
+  font-weight: 500;
+}
+
+/** section styling **/
+
+.section {
+  margin: 5% 20% 6% 20%;
+}
+
+.section p {
+  color: rgb(79, 79, 79); /*change in table too if change */
+}
+
+.resp h3 {
+  font-size: calc(14px + 1.2vw);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
