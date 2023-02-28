@@ -7,7 +7,7 @@ export default function MyNav() {
   return (
     <div className="navbar">
       <div className="left-navbar">
-        <Link to="/">Giant Giraffe</Link>
+        <Link to="/">Kiera Walsh</Link>
       </div>
       <div className="right-navbar">
         <Link to="/home">home</Link>
