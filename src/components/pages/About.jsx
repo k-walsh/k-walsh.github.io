@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className="about">
       <div className="top">
-        <img src="images/profile/<3.png" alt="profile pic" />
+        <img src="images/profile/profile_pic.png" alt="profile pic" />
         <div className="greeting">
           <h1>About me!</h1>
           <h1 id="subh1">
