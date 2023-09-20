@@ -15,7 +15,7 @@ export default function About() {
         <div className="greeting">
           <h1>About me!</h1>
           <h1 id="subh1">
-            Here's a little bit about me: My name is Kiera Walsh! I am a junior
+            Here's a little bit about me: My name is Kiera Walsh! I am a senior
             at Brown University studying computer science and behavioral
             decision sciences.
           </h1>
