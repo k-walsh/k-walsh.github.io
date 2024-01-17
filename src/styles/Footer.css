@@ -1,0 +1,76 @@
+.footerlinks {
+  text-align: right;
+
+  .underlinelink {
+    position: relative;
+    text-decoration: none;
+    color: var(--main-background) !important;
+  }
+
+  .underlinelink:hover {
+    color: var(--main-background) !important;
+    cursor: pointer;
+  }
+
+  .underlinelink::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--main-background) !important;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+  }
+
+  .underlinelink:hover::before {
+    transform: scaleX(1);
+  }
+}
+
+footer {
+  background-color: var(--text-color);
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 4vw 2vh 4vw;
+  align-items: end;
+}
+
+footer p {
+  color: var(--main-background);
+}
+
+.arrowUp {
+  display: flex;
+  justify-content: end;
+  /* padding-right: 2vw;
+  padding-bottom: 1.5vw; */
+  padding-right: 25px;
+  padding-bottom: 25px;
+  /* transition: all 0.2s ease-in-out; */
+}
+
+.arrowUp:hover {
+  cursor: pointer;
+  /* transform: scale(1.1); */
+}
+
+/* links in footer */
+
+/* .footerlink a {
+  color: var(--main-background) !important;
+}
+
+.footerlink a:hover {
+  color: var(--main-background) !important;
+  cursor: pointer !important;
+}
+
+.footerlink::before {
+  background-color: var(--main-background) !important;
+  transform-origin: top right !important;
+} */

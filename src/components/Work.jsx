@@ -1,37 +1,111 @@
-import "../styles/App.css";
 import "../styles/Work.css";
-import ProjectCard from "./ProjectCard";
+import "../styles/Pages.css";
+import WorkCard from "./WorkCard";
+import Masonry from "@mui/lab/Masonry";
+import LocalReturn from "./pages/LocalReturn";
+import NMC from "./pages/NMC";
+import CS111 from "./pages/CS111";
+import BDH from "./pages/BDH";
+import Craigslist from "./pages/Craigslist";
+import Bluenos from "./pages/Bluenos";
+import ASL from "./pages/ASL";
+import Tunes from "./pages/Tunes";
+import BDS from "./pages/BDS";
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
-export default function Work() {
+function Work() {
   return (
-    <div className="mywork" id="work">
-      {/* <h2>My Work</h2> */}
-      <div className="allwork">
-        <ProjectCard
-          link="/development"
-          preview_img_path="images/work-covers/blueno-comp.png"
-          proj_name="Development"
-          display_txt="How can we develop a bakery website with user experience in mind?"
-        />
-        <ProjectCard
-          link="/iterative-design"
-          preview_img_path="images/work-covers/figmas-kiwi.png"
-          proj_name="Iterative Design"
-          display_txt="How can we prototype an app from conception to finish, incorporating user feedback along the way?"
-        />
-        <ProjectCard
-          link="/responsive-redesign"
-          preview_img_path="images/work-covers/craigslist-covers.png"
-          proj_name="Responsive Redesign"
-          display_txt="How can we make a website usable across all devices?"
-        />
-        <ProjectCard
-          link="/community-wealth-dashboard"
-          preview_img_path="images/work-covers/dash.png"
-          proj_name="Community Wealth Dashboard"
-          display_txt="How can we visualize community wealth across Rhode Island?"
-        />
+    <div id="Work" className="section">
+      <AnimatedOnScroll animationIn="fadeInUp">
+        <h2>Work</h2>
+      </AnimatedOnScroll>
+      <div className="work">
+        {/* <Masonry columns={2} spacing={2}> */}
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work-covers/nmc.png"
+            title="New Majority Capital Dashboard"
+            type="Web Development"
+            page={<NMC />}
+            modalID="nmcModal"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work-covers/111-site2.png"
+            title="CS 111 Website"
+            type="Web Development"
+            page={<CS111 />}
+            modalID="cs111Modal"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work-covers/local.png"
+            title="Community Wealth Dashboard"
+            type="Web Development"
+            page={<LocalReturn />}
+            modalID="localModal"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work-covers/bdh.png"
+            title="Brown Daily Herald News Quiz"
+            type="Web Development"
+            page={<BDH />}
+            modalID="bdhModal"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work-covers/blueno.png"
+            title="Blueno's Bakery"
+            type="Web Development"
+            page={<Bluenos />}
+            modalID="bluenoModal"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work-covers/craigslist.png"
+            title="Craigslist Responsive Redesign"
+            type="Web Development"
+            page={<Craigslist />}
+            modalID="craigModal"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work-covers/asl.png"
+            title="ASL Alphabet Translator"
+            type="Computer Vision"
+            page={<ASL />}
+            modalID="aslModal"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work-covers/bds.png"
+            title="Data Storytelling"
+            type="BDS Capstone"
+            page={<BDS />}
+            modalID="bdsModal"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work-covers/tunes3.png"
+            title="Tunes Over Time"
+            type="Data Science"
+            page={<Tunes />}
+            modalID="tunesModal"
+          />
+        </AnimatedOnScroll>
+        {/* </Masonry> */}
       </div>
     </div>
   );
 }
+
+export default Work;

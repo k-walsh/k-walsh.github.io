@@ -1,0 +1,45 @@
+#pic {
+  width: 20vw;
+  height: auto;
+  margin-right: 3vw;
+  min-width: 150px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6vw;
+}
+
+#bio {
+  padding: 2vw 3vw 0 3vw;
+}
+
+@media (max-width: 880px) {
+  .about {
+    display: block;
+    margin: auto;
+  }
+
+  #pic {
+    float: inline-start;
+    width: 23vw;
+    margin-left: 4.5vw;
+    margin-right: 3vw;
+    margin-bottom: 2%;
+  }
+}
+
+@media (min-width: 881px) {
+  #bio {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 880px) {
+  #bio {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+}

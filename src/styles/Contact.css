@@ -1,0 +1,59 @@
+.contact {
+  width: 60%;
+  /* min-width: 500px; */
+  /* margin-left: 2.5vw;
+  margin-right: 2.5vw; */
+  margin: 0 1vw;
+}
+
+.contactlinks {
+  margin-top: min(4vw, 6vh);
+}
+
+@media (max-width: 850px) {
+  .contact {
+    width: 65%;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact {
+    width: 70%;
+  }
+}
+
+@media (max-width: 750px) {
+  .contact {
+    width: 75%;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact {
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact {
+    width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    width: 90%;
+  }
+}
+
+@media (max-width: 550px) {
+  .contact {
+    width: 95%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact {
+    width: 100%;
+  }
+}

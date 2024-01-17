@@ -1,0 +1,114 @@
+.workpage {
+  margin: 5%;
+}
+
+.workpage h3 {
+  font-family: var(--text-font);
+  font-weight: normal;
+  margin-bottom: 1vh;
+}
+
+.workpage h4 {
+  font-family: var(--text-font);
+  font-weight: normal;
+  margin-top: 1vh;
+}
+
+.workpage h1 {
+  margin-top: 0;
+}
+
+.col2 h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.col2 p {
+  margin-top: 0;
+}
+
+/* .info {
+  display: flex;
+} */
+.col2 {
+  float: right;
+  width: 40%;
+  margin-left: 5vw;
+  margin-bottom: 2vw;
+  margin-top: 0;
+}
+
+.workdescription {
+  /* width: 60%; */
+  /* margin-right: 8%; */
+  white-space: pre-wrap;
+}
+
+/* Top images */
+
+.banner {
+  height: 20vw;
+  min-height: 180px;
+  overflow: hidden;
+  /* background-color: black; */
+  background-color: var(--text-color);
+}
+
+.banner img {
+  width: 100%;
+  position: relative;
+  opacity: 0.7;
+  /* opacity: 0.8; */
+}
+
+#nmc {
+  top: -22vw;
+  opacity: 0.8;
+}
+
+#cs111 {
+  top: -18vw;
+  opacity: 0.8;
+}
+
+#local {
+  top: -20vw;
+  opacity: 0.8;
+}
+
+#bdh {
+  top: -9.8vw;
+}
+
+#blueno {
+  top: -19.5vw;
+}
+
+#craigslist {
+  top: -6vw;
+}
+
+#asl {
+  top: -3vw;
+  background-color: var(--main-background);
+  opacity: 0.8;
+}
+
+#bds {
+  top: -2.5vw;
+}
+
+#tunes {
+  top: -16vw;
+  opacity: 0.8;
+}
+
+/* Craigslist slider */
+.slider {
+  width: 60%;
+  margin: auto;
+}
+
+.slider img {
+  border-radius: 25px;
+}

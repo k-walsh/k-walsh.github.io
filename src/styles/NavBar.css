@@ -1,0 +1,176 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+  padding: 1.5vh 5% 0 5%;
+  margin-bottom: 3vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  opacity: 82%;
+  background-color: var(--main-background);
+  z-index: 999;
+}
+
+.NavBar h2 {
+  cursor: pointer;
+  margin: 0.83em 0;
+}
+
+.NavBar h3 {
+  cursor: pointer;
+  font-weight: normal;
+  margin: 0.83em 0;
+  font-family: var(--text-font);
+}
+
+.active h3 {
+  font-weight: bold;
+}
+
+.navlinksTop {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+}
+
+.navLinksAndHam {
+  padding-top: calc(1.5vh + 0.83em);
+  padding-right: 6vw;
+  /* padding-right: 5%; */
+  display: none;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .hamburger {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 9999;
+  }
+
+  .navlinksTop {
+    display: none;
+  }
+
+  .navLinksAndHam {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    /* width: 30vw; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 6vw;
+    padding-left: 10vw;
+    z-index: 9999;
+    border-radius: 0 0 0 25px;
+  }
+
+  .navlinksCollapsed {
+    text-align: right;
+
+    .underlinelink {
+      position: relative;
+      text-decoration: none;
+      color: var(--main-background) !important;
+      padding: 0.5vh;
+      width: 100%;
+    }
+
+    .underlinelink:hover {
+      color: var(--main-background) !important;
+    }
+
+    .underlinelink::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: var(--main-background) !important;
+      transform: scaleX(0);
+      transform-origin: top left;
+      transition: transform 0.3s ease;
+    }
+
+    .underlinelink:hover::before {
+      transform: scaleX(1);
+    }
+  }
+}
+/* 
+.navlinksCollapsed.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 0.3s ease;
+}
+
+.navlinksCollapsed.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100px);
+  transition: 0.3s ease;
+} */
+
+/* making the burger icon / x */
+
+.burgerline {
+  width: 2rem;
+  height: 0.25rem;
+  border-radius: 10px;
+  background-color: var(--text-color);
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+  margin: 3px;
+}
+
+.active {
+  .burger1 {
+    transform: rotate(45deg);
+  }
+
+  .burger2 {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  .burger3 {
+    transform: rotate(-45deg);
+  }
+
+  .burger {
+    background-color: var(--main-background);
+  }
+}
+
+.inactive {
+  .burger1 {
+    transform: rotate(0);
+  }
+
+  .burger2 {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .burger3 {
+    transform: rotate(0);
+  }
+
+  .burger {
+    background-color: var(--text-color);
+  }
+}

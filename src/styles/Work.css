@@ -1,33 +1,111 @@
-/* * trying to make description only appear on hover but not working *
-.projectcard + .projectinfo {
+:root {
+  --corner-radius: 2vw;
+}
+
+.workCard h3 {
+  font-family: var(--text-font);
+}
+
+.workCard h3,
+.workCard p {
+  margin: 0;
+}
+
+.projectImg {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.projectImgContainer {
+  overflow: hidden;
+  border-radius: var(--corner-radius) var(--corner-radius) 0 0;
+}
+
+.workCard {
+  background-color: #fff7ef;
+  border-radius: var(--corner-radius);
+  margin: 1vw 2vw;
+  height: 90%;
+  /* height: 85%; */
+}
+
+.cardlabel {
+  padding: 5% 5% 10% 5%;
+  /* padding: 5% 5% 8% 5%; */
+  /* padding: 1.5vw 2vw 4vw 1.5vw; */
+}
+
+.workCard:hover {
+  cursor: pointer;
+}
+
+.workCard:hover .projectImg {
+  transform: scale(1.1);
+}
+
+.show {
   display: none;
+  opacity: 0;
+  transition: opacity 0.5s, display 0.5s;
 }
 
-.projectcard:hover > .projectinfo {
+.type {
   display: block;
-  font-size: 25px;
-  visibility: visible;
-} */
+  opacity: 1;
+  transition: opacity 0.5s, display 0.5s;
+}
 
-/** ^ https://www.geeksforgeeks.org/display-div-element-on-hovering-over-a-tag-using-css/#:~:text=To%20display%20div%20element%20using,to%20display%20the%20div%20element. **/
-
-.allwork {
+.workCard:hover .show {
+  display: block;
+  opacity: 1;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
 }
 
-.mywork {
-  display: flex;
-  flex-direction: column;
-  font-size: calc(12px + 2vw);
-  /* font-family: "Mulish"; */
+.show:after {
+  content: "";
+  display: inline-block;
+  border-top: 1.45px solid var(--text-color);
+  width: 3em;
+  vertical-align: middle;
+  margin: 0 0.5em;
 }
 
-.mywork h2 {
-  text-align: center;
-  /* font-size: (30px + 1vw); */
-  /* font-size: calc(12px + 3vw); */
+.workCard:hover .type {
+  display: none;
+  opacity: 0;
 }
 
+/* layout */
 
+.work {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-auto-rows: 1fr;
+}
+
+/* modal */
+
+.modalBox {
+  position: absolute;
+  /* top: 50%; */
+  /* top: auto; */
+  bottom: 0;
+  /* left: 50%; */
+  right: 0;
+  /* right: 30%; */
+  /* width: 70vw; */
+  width: 90vw;
+  height: 80vh;
+  /* transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, 0); */
+  /* transform: translate(0, 0); */
+  /* transform: translate(30%, 0); */
+  background-color: #fff7ef;
+  border-radius: 70px 0 0 0;
+  box-shadow: 24;
+  overflow: scroll;
+  /* cursor: default; */
+  cursor: initial;
+}
