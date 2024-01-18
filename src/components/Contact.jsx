@@ -23,7 +23,7 @@ function Contact() {
             day!
           </p>
 
-          <img src="images/sun2.png" alt="sun" id="sunContact" />
+          {/* <img src="images/sun2.png" alt="sun" id="sunContact" /> */}
 
           <div className="contactlinks">
             <a

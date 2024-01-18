@@ -45,32 +45,44 @@ footer p {
 }
 
 .arrowUp {
+  /* background-color: yellow; */
+  width: fit-content;
   display: flex;
-  justify-content: end;
-  /* padding-right: 2vw;
-  padding-bottom: 1.5vw; */
-  padding-right: 25px;
-  padding-bottom: 25px;
-  /* transition: all 0.2s ease-in-out; */
+  justify-content: flex-end;
+  margin-right: 3vw;
+  margin-bottom: 2.5vh;
+  position: relative;
+}
+
+#uparrow {
+  position: absolute;
+  /* top: -5%; */
+  top: 42%;
+  width: 98%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#sunFoot {
+  display: block;
+  width: 100px;
+  /* margin: 30px; */
 }
 
 .arrowUp:hover {
   cursor: pointer;
-  /* transform: scale(1.1); */
+  #sunFoot {
+    /* opacity: 70%; */
+    opacity: 40%;
+  }
+
+  #uparrow {
+    opacity: 1;
+  }
 }
 
-/* links in footer */
-
-/* .footerlink a {
-  color: var(--main-background) !important;
+.uppp {
+  display: flex;
+  justify-content: flex-end;
 }
-
-.footerlink a:hover {
-  color: var(--main-background) !important;
-  cursor: pointer !important;
-}
-
-.footerlink::before {
-  background-color: var(--main-background) !important;
-  transform-origin: top right !important;
-} */

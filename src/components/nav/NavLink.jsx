@@ -21,12 +21,12 @@ function NavLink(props) {
       className="underlinelink"
       onClick={close}
     >
-      {props.setOpen ? <h3>{props.name}</h3> : <p>{props.name}</p>}
+      {props.footer ? <p>{props.name}</p> : <h3>{props.name}</h3>}
     </Link>
   );
 
   // if collapsed, don't animate
-  if (props.navCollapsed) return link;
+  if (props.navCollapsed || props.footer) return link;
   else
     return (
       <AnimatedOnScroll

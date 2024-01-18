@@ -6,19 +6,22 @@ import NavLink from "./nav/NavLink";
 function Footer() {
   return (
     <div>
-      <Link
-        to="HeyThere"
-        activeClass="active"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={1000}
-        delay={0}
-        className="arrowUp"
-      >
-        {/* <ArrowUpwardIcon style={{ color: "#fce9d8" }} fontSize="large" /> */}
-        <ArrowUpwardIcon fontSize="large" />
-      </Link>
+      <div className="uppp">
+        <Link
+          to="HeyThere"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={1000}
+          delay={0}
+          className="arrowUp"
+        >
+          {/* <ArrowUpwardIcon style={{ color: "#fce9d8" }} fontSize="large" /> */}
+          <ArrowUpwardIcon fontSize="large" id="uparrow" />
+          <img src="images/sun2.png" alt="sun" id="sunFoot" />
+        </Link>
+      </div>
       <footer>
         <div>
           <p>Kiera Walsh</p>
@@ -29,9 +32,9 @@ function Footer() {
           <p>Brown University</p>
         </div>
         <div className="footerlinks">
-          <NavLink name="About" navCollapsed={true} />
-          <NavLink name="Work" navCollapsed={true} />
-          <NavLink name="Contact" navCollapsed={true} />
+          <NavLink name="About" footer={true} />
+          <NavLink name="Work" footer={true} />
+          <NavLink name="Contact" footer={true} />
         </div>
       </footer>
     </div>
