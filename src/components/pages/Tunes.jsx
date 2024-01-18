@@ -3,7 +3,7 @@ import PageHeader from "../PageHeader";
 function Tunes() {
   return (
     <PageHeader
-      img="images/work-covers/tunes3.png"
+      img="images/work/covers/tunes.png"
       category="Data Science"
       title="Tunes Over Time"
       partners="Sophia Liu, Mandy He, Annabeth Stokley, Kiera Walsh"

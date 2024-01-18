@@ -3,7 +3,7 @@ import PageHeader from "../PageHeader";
 function Bluenos() {
   return (
     <PageHeader
-      img="images/work-covers/blueno.png"
+      img="images/work/covers/blueno.png"
       category="Web Development"
       title="Blueno's Bakery"
       description="This website showcases “Blueno’s Bagel Shop”, allowing customers to

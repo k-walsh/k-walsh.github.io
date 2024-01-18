@@ -3,7 +3,7 @@ import PageHeader from "../PageHeader";
 function NMC() {
   return (
     <PageHeader
-      img="images/work-covers/nmc.png"
+      img="images/work/covers/nmc.png"
       category="Web Development"
       title="New Majority Capital Dashboard"
       description="This interactive dashboard was designed to reflect data on topics

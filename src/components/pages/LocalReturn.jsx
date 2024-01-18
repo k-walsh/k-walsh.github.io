@@ -3,7 +3,7 @@ import PageHeader from "../PageHeader";
 function LocalReturn() {
   return (
     <PageHeader
-      img="images/work-covers/local.png"
+      img="images/work/covers/local.png"
       category="Web Development"
       title="Community Wealth Dashboard"
       description={[

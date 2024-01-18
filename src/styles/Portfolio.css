@@ -28,6 +28,7 @@ p {
 
 .underlinelink:hover {
   color: var(--text-color);
+  cursor: pointer;
 }
 
 .underlinelink::before {

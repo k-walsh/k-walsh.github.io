@@ -3,17 +3,17 @@ import ReactBeforeSliderComponent from "react-before-after-slider-component";
 import "react-before-after-slider-component/dist/build.css";
 
 const original_craisglist = {
-  imageUrl: "images/og_craig.png",
+  imageUrl: "images/work/craigslist-before.png",
 };
 const redesigned_craigslist = {
-  imageUrl: "images/craigslist-covers.png",
+  imageUrl: "images/work/craigslist-after.png",
 };
 
 function Craigslist() {
   return (
     <div>
       <PageHeader
-        img="images/work-covers/craigslist.png"
+        img="images/work/covers/craigslist.png"
         category="Web Development"
         title="Craigslist Responsive Redesign"
         description="We have all come across websites with confusing layouts, unclear

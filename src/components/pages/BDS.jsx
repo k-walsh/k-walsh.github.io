@@ -4,7 +4,7 @@ function BDS() {
   return (
     <PageHeader
       // img="images/work-covers/bds.png"
-      img="images/work-covers/bds-cover.png"
+      img="images/work/bds-banner.png"
       category="BDS Capstone"
       title="Data Storytelling"
       description={[

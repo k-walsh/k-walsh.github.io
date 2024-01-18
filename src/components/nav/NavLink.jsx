@@ -21,7 +21,7 @@ function NavLink(props) {
       className="underlinelink"
       onClick={close}
     >
-      <h3>{props.name}</h3>
+      {props.setOpen ? <h3>{props.name}</h3> : <p>{props.name}</p>}
     </Link>
   );
 

@@ -3,7 +3,7 @@ import PageHeader from "../PageHeader";
 function CS111() {
   return (
     <PageHeader
-      img="images/work-covers/111-site2.png"
+      img="images/work/covers/cs111.png"
       category="Web Development"
       title="CS 111 Website"
       description={[

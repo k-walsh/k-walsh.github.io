@@ -57,3 +57,11 @@
     width: 100%;
   }
 }
+
+#sunContact {
+  display: block;
+  width: 100px;
+  float: right;
+  margin-right: 10vw;
+  margin-top: 0;
+}

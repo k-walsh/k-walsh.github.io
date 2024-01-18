@@ -11,12 +11,11 @@ function WorkCard(props) {
 
   return (
     <div className="workModal">
-      <div className="workCard">
+      <div className="workCard" onClick={handleOpen}>
         <div className="projectImgContainer">
           <img
             src={props.path}
             alt={`project cover for ${props.title}`}
-            onClick={handleOpen}
             className="projectImg"
           />
         </div>

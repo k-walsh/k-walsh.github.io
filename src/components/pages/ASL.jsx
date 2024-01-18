@@ -4,7 +4,7 @@ function ASL() {
   return (
     <div>
       <PageHeader
-        img="images/work-covers/asl.png"
+        img="images/work/covers/asl.png"
         category="Computer Vision"
         title="ASL Alphabet Translator"
         partners="Kiera Walsh and Joan Nekoye"

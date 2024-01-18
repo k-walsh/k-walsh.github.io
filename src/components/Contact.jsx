@@ -15,10 +15,15 @@ function Contact() {
       <div className="contact">
         <AnimatedOnScroll animationIn="fadeInUp">
           <p>
-            Feel free to reach out! I'd love to chat - whether it's about a
-            project, my experience, or waffles! Let's connect on Linkedin,
-            Github, or send me an email! Thanks for looking over my work!{" "}
+            Thanks for buzzing around my portfolio! I'm always excited to
+            connect with potential collaborators, meet people interested in the
+            intersection of tech and psychology, or chat about anything under
+            the ~sun~. Feel free to explore my projects on GitHub, connect with
+            me on LinkedIn, or send me a message via email. Have a bee-autiful
+            day!
           </p>
+
+          <img src="images/sun2.png" alt="sun" id="sunContact" />
 
           <div className="contactlinks">
             <a

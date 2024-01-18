@@ -1,7 +1,7 @@
 import "../styles/Work.css";
 import "../styles/Pages.css";
 import WorkCard from "./WorkCard";
-import Masonry from "@mui/lab/Masonry";
+// import Masonry from "@mui/lab/Masonry";
 import LocalReturn from "./pages/LocalReturn";
 import NMC from "./pages/NMC";
 import CS111 from "./pages/CS111";
@@ -23,7 +23,7 @@ function Work() {
         {/* <Masonry columns={2} spacing={2}> */}
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work-covers/nmc.png"
+            path="images/work/covers/nmc.png"
             title="New Majority Capital Dashboard"
             type="Web Development"
             page={<NMC />}
@@ -32,7 +32,7 @@ function Work() {
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work-covers/111-site2.png"
+            path="images/work/covers/cs111.png"
             title="CS 111 Website"
             type="Web Development"
             page={<CS111 />}
@@ -41,7 +41,7 @@ function Work() {
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work-covers/local.png"
+            path="images/work/covers/local.png"
             title="Community Wealth Dashboard"
             type="Web Development"
             page={<LocalReturn />}
@@ -50,7 +50,7 @@ function Work() {
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work-covers/bdh.png"
+            path="images/work/covers/bdh.png"
             title="Brown Daily Herald News Quiz"
             type="Web Development"
             page={<BDH />}
@@ -59,7 +59,7 @@ function Work() {
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work-covers/blueno.png"
+            path="images/work/covers/blueno.png"
             title="Blueno's Bakery"
             type="Web Development"
             page={<Bluenos />}
@@ -68,7 +68,7 @@ function Work() {
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work-covers/craigslist.png"
+            path="images/work/covers/craigslist.png"
             title="Craigslist Responsive Redesign"
             type="Web Development"
             page={<Craigslist />}
@@ -77,7 +77,7 @@ function Work() {
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work-covers/asl.png"
+            path="images/work/covers/asl.png"
             title="ASL Alphabet Translator"
             type="Computer Vision"
             page={<ASL />}
@@ -86,7 +86,7 @@ function Work() {
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work-covers/bds.png"
+            path="images/work/covers/bds.png"
             title="Data Storytelling"
             type="BDS Capstone"
             page={<BDS />}
@@ -95,7 +95,7 @@ function Work() {
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work-covers/tunes3.png"
+            path="images/work/covers/tunes.png"
             title="Tunes Over Time"
             type="Data Science"
             page={<Tunes />}

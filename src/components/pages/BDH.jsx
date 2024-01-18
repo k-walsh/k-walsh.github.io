@@ -3,7 +3,7 @@ import PageHeader from "../PageHeader";
 function BDH() {
   return (
     <PageHeader
-      img="images/work-covers/bdh.png"
+      img="images/work/covers/bdh.png"
       category="Web Development"
       title="Brown Daily Herald News Quiz"
       description=" This news quiz tests readers’ knowledge of the past week’s top
