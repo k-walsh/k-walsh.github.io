@@ -13,7 +13,7 @@ function CS111() {
         "CS111 was the intro computer science course I took at Brown, which was the first CS course I have ever taken, and TAing for this class for the past two years has been a highlight of my time at Brown. Throughout the semester, I updated the site with new assignments and loved changing the themes of the ducks to match the seasons.",
       ]}
       technologies="Jekyll, HTML, CSS, Github Pages"
-      link="https://brown-csci0111.github.io/pages/home.html"
+      link="https://cs.brown.edu/courses/csci0111/fall2023/pages/home.html"
       id="cs111"
     />
   );

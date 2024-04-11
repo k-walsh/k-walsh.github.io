@@ -14,7 +14,7 @@ function NMC() {
             wealth gap and highlight the role small business ownership could
             have in closing it."
       technologies="React, JavaScript, CSS, Python, Pandas, APIs, SQL"
-      comingSoon={true}
+      link={"https://newmajoritycapital.com/about/states"}
       id="nmc"
     />
   );
