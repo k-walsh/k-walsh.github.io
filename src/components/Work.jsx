@@ -5,12 +5,14 @@ import WorkCard from "./WorkCard";
 import LocalReturn from "./pages/LocalReturn";
 import NMC from "./pages/NMC";
 import CS111 from "./pages/CS111";
-import BDH from "./pages/BDH";
+import NewsQuiz from "./pages/NewsQuiz";
 import Craigslist from "./pages/Craigslist";
 import Bluenos from "./pages/Bluenos";
 import ASL from "./pages/ASL";
 import Tunes from "./pages/Tunes";
 import BDS from "./pages/BDS";
+import BDH from "./pages/BDH";
+import CBrown from "./pages/C@Brown";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 function Work() {
@@ -21,6 +23,24 @@ function Work() {
       </AnimatedOnScroll>
       <div className="work">
         {/* <Masonry columns={2} spacing={2}> */}
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work/covers/bdh_app.png"
+            title="Brown Daily Herald Mobile App"
+            type="Mobile App Development"
+            page={<BDH />}
+            modalID="bdhAppModal"
+          />
+        </AnimatedOnScroll>
+        <AnimatedOnScroll animationIn="fadeInUp">
+          <WorkCard
+            path="images/work/covers/concentrations3.png"
+            title="Concentrations@Brown"
+            type="Data Story, Web Development"
+            page={<CBrown />}
+            modalID="c@BrownModal"
+          />
+        </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
             path="images/work/covers/nmc.png"
@@ -50,11 +70,11 @@ function Work() {
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">
           <WorkCard
-            path="images/work/covers/bdh.png"
+            path="images/work/covers/newsquiz.png"
             title="Brown Daily Herald News Quiz"
             type="Web Development"
-            page={<BDH />}
-            modalID="bdhModal"
+            page={<NewsQuiz />}
+            modalID="bdhQuizModal"
           />
         </AnimatedOnScroll>
         <AnimatedOnScroll animationIn="fadeInUp">

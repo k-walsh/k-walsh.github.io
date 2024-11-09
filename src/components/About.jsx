@@ -14,18 +14,21 @@ function About() {
           {/* <div className="bio"> */}
           <p id="bio">
             Hey! I'm Kiera, an aspiring software engineer passionate about
-            building awesome web experiences. I'm currently a senior at Brown
-            University, studying computer science and behavioral decision
-            sciences.
+            building awesome web experiences. In May 2024, I graduated from
+            Brown University with degrees in computer science and behavioral
+            decision sciences.
             <br />
             <br />
             With my interdisciplinary background, I love weaving together code
-            and human behavior to create seamless and engaging interfaces.
+            and human behavior to create seamless and engaging interfaces. And
+            when I'm not coding, I also love creating - whether it's with yarn
+            and a hook or scraps of paper and a gluestick!
             <br />
             <br />
-            When I'm not coding, I love watching sunsets or staring at the
-            stars. You can also find me spending hours inside with a needle and
-            thread.
+            Post-grad I am currently living in Italy where I am working as an au
+            pair and studying Italian! I'm excited to take this time to see the
+            world and grow as a person before I take on the next phase of my
+            life!
           </p>
           {/* </div> */}
         </div>

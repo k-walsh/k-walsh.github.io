@@ -26,8 +26,8 @@ function Footer() {
         <div>
           <p>Kiera Walsh</p>
           <p>
-            B.A. Candidate in Computer Science & <br />
-            Behavioral Decision Sciences
+            B.A. Computer Science, <br />
+            B.A. Behavioral Decision Sciences
           </p>
           <p>Brown University</p>
         </div>
