@@ -25,10 +25,11 @@ function About() {
             and a hook or scraps of paper and a gluestick!
             <br />
             <br />
-            Post-grad I am currently living in Italy where I am working as an au
-            pair and studying Italian! I'm excited to take this time to see the
-            world and grow as a person before I take on the next phase of my
-            life!
+            Post-grad, I spent a year living in Italy where I worked as an au
+            pair and studied Italian, an adventure that strengthened my
+            adaptability, communication, and problem-solving skills. Now back in
+            the U.S., I'm excited to begin my career in frontend development and
+            contribute to a collaborative, innovative team.
           </p>
           {/* </div> */}
         </div>
