@@ -54,7 +54,7 @@ function Contact() {
             </a>
 
             <a
-              href="https://docs.google.com/document/d/15O1BzFBn2UUw2fwMFwN3QPu6zJsxLqWa/edit?usp=sharing&ouid=111327772924304190725&rtpof=true&sd=true"
+              href="https://docs.google.com/document/d/1eM5vI_HT_jRhmfrnXE_eSjteyjjFF9GxzVcU9jiCfPU/edit?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="underlinelink"
